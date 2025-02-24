@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 body {
   margin: 0 auto;
 
   font-family: Rubik, Outfit, sans-serif;
 }
+
 
