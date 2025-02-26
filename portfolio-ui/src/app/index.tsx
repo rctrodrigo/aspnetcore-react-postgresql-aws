@@ -4,6 +4,7 @@ import {ModeToggle} from "@/components/ui/mode-toggle.tsx";
 import Navbar from "@/components/layouts/navbar.tsx";
 import About from "@/components/layouts/about.tsx";
 import Tools from "@/components/layouts/tools.tsx";
+import Projects from "@/components/layouts/projects.tsx";
 
 export const App = () => {
     return (
@@ -12,6 +13,7 @@ export const App = () => {
                 <Navbar />
                 <About />
                 <Tools />
+                <Projects />
             </div>
             <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
                 <ModeToggle />

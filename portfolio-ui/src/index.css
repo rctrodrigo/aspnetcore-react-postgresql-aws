@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 @custom-variant dark (&:where(.dark, .dark *));
 
 * {
@@ -9,8 +8,16 @@
 
 body {
   margin: 0 auto;
-  max-width: 70%;
+  max-width: 80%;
   font-family: Rubik, Outfit, sans-serif;
 }
 
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
 
