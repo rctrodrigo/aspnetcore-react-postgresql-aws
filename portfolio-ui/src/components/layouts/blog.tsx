@@ -3,10 +3,6 @@ import {Separator} from "@radix-ui/react-separator";
 const blogs = [
     { blogTitle: "Blog 1", blogDescription: "This is the first blog", blogAuthor: "Raven Rodrigo", blogDate: Date.now() },
     { blogTitle: "Blog 2", blogDescription: "This is the second blog", blogAuthor: "Raven Rodrigo", blogDate: Date.now() },
-    { blogTitle: "Blog 3", blogDescription: "This is the third blog", blogAuthor: "Raven Rodrigo", blogDate: Date.now() },
-    { blogTitle: "Blog 4", blogDescription: "This is the fourth blog", blogAuthor: "Raven Rodrigo", blogDate: Date.now() },
-    { blogTitle: "Blog 5", blogDescription: "This is the fifth blog", blogAuthor: "Raven Rodrigo", blogDate: Date.now() },
-    { blogTitle: "Blog 6", blogDescription: "This is the sixth blog", blogAuthor: "Raven Rodrigo", blogDate: Date.now() },
 ];
 function Blog() {
     const blogList = blogs.map(blog =>
@@ -18,7 +14,7 @@ function Blog() {
                 </p>
             </div>
             <Separator className="my-4" />
-            <div className="flex h-5 items-center space-x-4 text-sm  pl-1.5 ml-2 mt-4 mb-4">
+            <div className="flex h-5 items-center space-x-4 text-sm  pl-1.5 ml-2 mt-1 mb-2">
                 <div>{blog.blogAuthor}</div>
                 <Separator orientation="vertical" />
                 <div>{blog.blogDate}</div>
@@ -33,10 +29,10 @@ function Blog() {
     );
 
     return (
-        <div className="col-start-1 row-start-5 col-span-2 row-span-2
+        <div className="col-start-3 row-start-4 col-span-4 row-span-1
                         ring-offset-background focus-visible:outline-none focus-visible:ring-2
                         focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border
-                        ">
+                        max-h-[40vh]">
             <div className="space-y-2">
                 <h1 className="scroll-m-20 pl-1.5 ml-2 mt-4 text-2xl font-bold tracking-tight">Blog</h1>
             </div>

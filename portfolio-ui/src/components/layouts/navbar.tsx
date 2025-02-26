@@ -12,7 +12,7 @@ const navigationComponentLinks = navigationLinks.map((item: string, index: numbe
 
 function Navbar() {
     return (
-        <nav className="col-start-1 row-start-1 col-span-4 row-span-1
+        <nav className="col-start-1 row-start-1 col-span-6 row-span-1
                         border-[1px solid rgba(255, 255, 255, 0.3)] radius-[5px] navbar-box-shadow
                         backdrop-filter-[blur(15px)] bg-[rgba(255, 255, 255, 0.3)] min-h-[12vh]
                         flex justify-between mt-4 max-h-[15px]

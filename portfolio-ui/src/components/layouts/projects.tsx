@@ -20,7 +20,6 @@ const projects = [
     { projectName: 'Project 2', projectDescription: 'This is my project 2' },
     { projectName: 'Project 3', projectDescription: 'This is my project 3' },
     { projectName: 'Project 4', projectDescription: 'This is my project 4' },
-    { projectName: 'Project 5', projectDescription: 'This is my project 5' }
 ];
 
 function Projects() {
@@ -43,9 +42,10 @@ function Projects() {
         </>
     );
     return (
-        <div className="col-start-2 row-start-2 col-span-3 row-span-2
+        <div className="col-start-2 row-start-2 col-span-5 row-span-2
                         ring-offset-background focus-visible:outline-none focus-visible:ring-2
-                        focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border">
+                        focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border
+                        max-h-[50vh]">
             <div className="space-y-2">
                 <h1 className="scroll-m-20 pl-1.5 ml-2 mt-4 text-2xl font-bold tracking-tight">Projects</h1>
             </div>

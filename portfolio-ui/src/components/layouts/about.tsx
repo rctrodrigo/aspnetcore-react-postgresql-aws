@@ -3,20 +3,20 @@ import {Separator} from "@radix-ui/react-separator";
 
 function About() {
     return (
-        <div className="col-start-1 row-start-2 col-span-1 row-span-2
+        <div className="col-start-1 row-start-2 col-span-1 row-span-1
                         ring-offset-background focus-visible:outline-none focus-visible:ring-2
                         focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border">
-            <Avatar>
-                <AvatarImage className="flex justify-center rounded-full bg-muted"
-                             src="https://github.com/shadcn.png" />
-            </Avatar>
+                <Avatar className="flex justify-center mt-4">
+                    <AvatarImage className="rounded-full max-h-25 max-w-25"
+                                 src="https://github.com/shadcn.png" />
+                </Avatar>
 
             <div className="space-y-1">
                 <h4 className="text-md font-medium leading-none text-center mt-2">Raven Rodrigo</h4>
                 <p className="text-md text-muted-foreground text-center mt-1">Software Developer</p>
             </div>
             <Separator className="my-4" />
-            <div className="flex h-5 items-center space-x-4 text-sm justify-center">
+            <div className="flex h-5 items-center mb-5 space-x-4 text-sm justify-center">
                 <div>
                     <a href="#" className="cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 48 48">
