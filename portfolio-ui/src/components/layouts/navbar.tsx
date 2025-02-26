@@ -14,8 +14,11 @@ function Navbar() {
     return (
         <nav className="col-start-1 row-start-1 col-span-4 row-span-1
                         border-[1px solid rgba(255, 255, 255, 0.3)] radius-[5px] navbar-box-shadow
-                        backdrop-filter-[blur(15px)] bg-[rgba(255, 255, 255, 0.3)] mt-4 min-h-[12vh]
-                        flex justify-between">
+                        backdrop-filter-[blur(15px)] bg-[rgba(255, 255, 255, 0.3)] min-h-[12vh]
+                        flex justify-between mt-4 max-h-[15px]
+                        ring-offset-background focus-visible:outline-none focus-visible:ring-2
+                        focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border
+                        ">
             <a href="#" className="w-[70%] flex items-center text-center text-2xl font-bold pl-1.5">
                 {siteName}
             </a>

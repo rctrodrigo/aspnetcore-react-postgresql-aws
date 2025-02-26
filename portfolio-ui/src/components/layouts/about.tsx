@@ -3,7 +3,7 @@ import {Separator} from "@radix-ui/react-separator";
 
 function About() {
     return (
-        <div className="col-start-1 row-start-2 col-span-1 row-span-3
+        <div className="col-start-1 row-start-2 col-span-1 row-span-2
                         ring-offset-background focus-visible:outline-none focus-visible:ring-2
                         focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border">
             <Avatar>

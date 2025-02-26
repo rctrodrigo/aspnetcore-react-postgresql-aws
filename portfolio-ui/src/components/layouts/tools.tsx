@@ -2,7 +2,7 @@ import Linux from "@/components/ui/linux.tsx";
 
 function Tools() {
     return (
-        <div className="col-start-1 row-start-5 col-span-3 row-span-1
+        <div className="col-start-1 row-start-4 col-span-2 row-span-1
                         ring-offset-background focus-visible:outline-none focus-visible:ring-2
                         focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border">
            <div className="space-y-2">
