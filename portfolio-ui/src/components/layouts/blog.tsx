@@ -28,8 +28,8 @@ function Blog() {
         </>
     );
 
-    return (
-        <div className="col-start-2 row-start-5 col-span-5 row-span-1
+    return ( /* col-start-1 row-start-4 col-span-1 row-span-2 */
+        <div className="col-start-1 row-start-5 col-span-4 row-span-2
                         ring-offset-background focus-visible:outline-none focus-visible:ring-2
                         focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border">
             <div className="space-y-2">

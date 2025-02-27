@@ -1,12 +1,9 @@
 import Linux from "@/components/ui/linux.tsx";
 
 function Tools() {
-    return (
-        <div className="col-start-2 row-start-4 col-span-5 row-span-1
-                        ring-offset-background focus-visible:outline-none focus-visible:ring-2
-                        focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border
-                        max-h-[12vh]">
-           <div className="space-y-2 mb-2">
+    return ( /* col-start-2 row-start-4 col-span-5 row-span-1 */
+        <div className="col-start-1 row-start-7 col-span-4 row-span-1 rounded-md border">
+           <div className="space-y-2 mb-1">
                <h1 className="scroll-m-20 pl-1.5 ml-2 mt-4 text-2xl font-bold tracking-tight">Tools</h1>
            </div>
             <div className="flex flex-wrap pl-5 mb-6 mr-3 gap-8 justify-start">

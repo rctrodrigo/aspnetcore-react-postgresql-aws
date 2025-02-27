@@ -4,16 +4,14 @@ import {Button} from "@/components/ui/button.tsx";
 
 function About() {
     return (
-        <div className="col-start-1 row-start-2 col-span-1 row-span-2
-                        ring-offset-background focus-visible:outline-none focus-visible:ring-2
-                        focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border">
+        <div className="col-start-1 row-start-2 col-span-1 row-span-2 rounded-md border">
                 <Avatar className="flex justify-center mt-4">
                     <AvatarImage className="rounded-full max-h-50 max-w-50"
                                  src="https://github.com/shadcn.png" />
                 </Avatar>
 
             <div className="space-y-1">
-                <h4 className="text-md font-medium leading-none text-center mt-2">Raven Rodrigo</h4>
+                <h4 className="text-md font-medium leading-none text-center mt-2">@rctrodrigo</h4>
                 <p className="text-md text-muted-foreground text-center mt-1">Software Developer</p>
             </div>
             <Separator className="my-4" />

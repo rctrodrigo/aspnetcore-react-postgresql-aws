@@ -11,7 +11,7 @@ export const App = () => {
         <>
 
             <Navbar />
-            <div className="grid grid-cols-4 grid-rows-1 gap-2">
+            <div className="grid grid-cols-5 grid-rows-1 gap-1">
                 <About />
                 <Contact />
                 <Tools />
