@@ -1,13 +1,14 @@
 import {Avatar, AvatarImage} from "@radix-ui/react-avatar";
 import {Separator} from "@radix-ui/react-separator";
+import {Button} from "@/components/ui/button.tsx";
 
 function About() {
     return (
-        <div className="col-start-1 row-start-2 col-span-1 row-span-1
+        <div className="col-start-1 row-start-2 col-span-1 row-span-2
                         ring-offset-background focus-visible:outline-none focus-visible:ring-2
                         focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border">
                 <Avatar className="flex justify-center mt-4">
-                    <AvatarImage className="rounded-full max-h-25 max-w-25"
+                    <AvatarImage className="rounded-full max-h-50 max-w-50"
                                  src="https://github.com/shadcn.png" />
                 </Avatar>
 
@@ -16,7 +17,7 @@ function About() {
                 <p className="text-md text-muted-foreground text-center mt-1">Software Developer</p>
             </div>
             <Separator className="my-4" />
-            <div className="flex h-5 items-center mb-5 space-x-4 text-sm justify-center">
+            <div className="flex h-5 items-center mt-6 mb-5 space-x-4 text-sm justify-center">
                 <div>
                     <a href="#" className="cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 48 48">
@@ -33,6 +34,18 @@ function About() {
                         </svg>
                     </a>
                 </div>
+                <div>
+                    <a href="#" className="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 128 128"><path fill="#bbb" d="M101.072 82.51h11.378V128H10.05V82.51h11.377v34.117h79.644zm0 0"/><path fill="#f58025" d="m33.826 79.13 55.88 11.738 2.348-11.166-55.876-11.745Zm7.394-26.748 51.765 24.1 4.824-10.349-51.768-24.1Zm14.324-25.384L99.428 63.53l7.309-8.775-43.885-36.527ZM83.874 0l-9.167 6.81 34.08 45.802 9.163-6.81Zm-51.07 105.254h56.89V93.881h-56.89Zm0 0"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div className="flex justify-center items-center align-middle mt-8">
+            <Button className="ml-1.5 pb-2.5 pr-2.5 pl-2.5 mt-1 border-[1px] border-gray-950
+                                   rounded-[3px] bg-[rgb(255,255,0)] hover:bg-[rgb(255,255,224)] cursor-pointer">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 2.5C3 2.22386 3.22386 2 3.5 2H9.08579C9.21839 2 9.34557 2.05268 9.43934 2.14645L11.8536 4.56066C11.9473 4.65443 12 4.78161 12 4.91421V12.5C12 12.7761 11.7761 13 11.5 13H3.5C3.22386 13 3 12.7761 3 12.5V2.5ZM3.5 1C2.67157 1 2 1.67157 2 2.5V12.5C2 13.3284 2.67157 14 3.5 14H11.5C12.3284 14 13 13.3284 13 12.5V4.91421C13 4.51639 12.842 4.13486 12.5607 3.85355L10.1464 1.43934C9.86514 1.15804 9.48361 1 9.08579 1H3.5ZM4.5 4C4.22386 4 4 4.22386 4 4.5C4 4.77614 4.22386 5 4.5 5H7.5C7.77614 5 8 4.77614 8 4.5C8 4.22386 7.77614 4 7.5 4H4.5ZM4.5 7C4.22386 7 4 7.22386 4 7.5C4 7.77614 4.22386 8 4.5 8H10.5C10.7761 8 11 7.77614 11 7.5C11 7.22386 10.7761 7 10.5 7H4.5ZM4.5 10C4.22386 10 4 10.2239 4 10.5C4 10.7761 4.22386 11 4.5 11H10.5C10.7761 11 11 10.7761 11 10.5C11 10.2239 10.7761 10 10.5 10H4.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                <a href="#" className="text-sm font-extrabold">Resume</a>
+            </Button>
             </div>
         </div>
     )

@@ -2,7 +2,7 @@ import {Separator} from "@radix-ui/react-separator";
 
 const blogs = [
     { blogTitle: "Blog 1", blogDescription: "This is the first blog", blogAuthor: "Raven Rodrigo", blogDate: Date.now() },
-    { blogTitle: "Blog 2", blogDescription: "This is the second blog", blogAuthor: "Raven Rodrigo", blogDate: Date.now() },
+    { blogTitle: "Blog 1", blogDescription: "This is the first blog", blogAuthor: "Raven Rodrigo", blogDate: Date.now() },
 ];
 function Blog() {
     const blogList = blogs.map(blog =>
@@ -29,10 +29,9 @@ function Blog() {
     );
 
     return (
-        <div className="col-start-3 row-start-4 col-span-4 row-span-1
+        <div className="col-start-2 row-start-5 col-span-5 row-span-1
                         ring-offset-background focus-visible:outline-none focus-visible:ring-2
-                        focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border
-                        max-h-[40vh]">
+                        focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md border">
             <div className="space-y-2">
                 <h1 className="scroll-m-20 pl-1.5 ml-2 mt-4 text-2xl font-bold tracking-tight">Blog</h1>
             </div>
